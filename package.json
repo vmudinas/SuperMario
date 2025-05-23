@@ -4,8 +4,9 @@
   "description": "Mario Bros-like platformer game using HTML and TypeScript",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "start": "tsc --watch"
+    "build": "tsc && cp src/index.html dist/",
+    "start": "tsc --watch",
+    "serve": "http-server ./dist -o"
   },
   "keywords": [
     "mario",
@@ -17,6 +18,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "http-server": "^14.1.1",
     "typescript": "^4.9.5"
   }
 }
