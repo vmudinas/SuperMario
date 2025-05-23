@@ -1,0 +1,22 @@
+{
+  "name": "super-mario",
+  "version": "1.0.0",
+  "description": "Mario Bros-like platformer game using HTML and TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc --watch"
+  },
+  "keywords": [
+    "mario",
+    "platformer",
+    "game",
+    "typescript",
+    "html5"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
