@@ -1,6 +1,6 @@
-import { Player } from './player';
-import { Enemy } from './enemy';
-import { Level } from './level';
+import { Player } from './player.js';
+import { Enemy } from './enemy.js';
+import { Level } from './level.js';
 
 // Game class
 class Game {
