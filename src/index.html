@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Mario</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #87CEEB; /* Sky blue background */
+            font-family: 'Arial', sans-serif;
+        }
+        
+        #game-container {
+            position: relative;
+        }
+        
+        #game-canvas {
+            border: 4px solid #333;
+            background-color: #6b88fe;
+        }
+        
+        #ui-container {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            color: white;
+            font-size: 18px;
+            text-shadow: 2px 2px 0 #000;
+        }
+        
+        #controls {
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="game-canvas" width="800" height="480"></canvas>
+        <div id="ui-container">
+            <div id="score">SCORE: 0</div>
+            <div id="lives">LIVES: 3</div>
+        </div>
+    </div>
+    <div id="controls">
+        <p>Controls: Arrow keys to move, Space to jump</p>
+    </div>
+
+    <!-- Game scripts -->
+    <script type="module" src="main.js"></script>
+</body>
+</html>
