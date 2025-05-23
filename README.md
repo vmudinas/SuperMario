@@ -27,7 +27,13 @@ A Mario Bros-like platformer game built with HTML and TypeScript.
    ```
    ./build.sh
    ```
-4. Open `dist/index.html` in your browser to play the game
+4. Run the game:
+   - Option 1: Open `dist/index.html` directly in your browser
+   - Option 2: Start the local development server:
+     ```
+     npm run serve
+     ```
+     This will automatically open the game in your default browser at http://localhost:8080
 
 ## Controls
 
