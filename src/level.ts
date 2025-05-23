@@ -25,7 +25,7 @@ interface GoalFlag {
 export class Level {
     platforms: Platform[] = [];
     coins: Coin[] = [];
-    goalFlag: GoalFlag;
+    goalFlag: GoalFlag = { x: 0, y: 0, width: 0, height: 0 }; // Initialize with default values
     width: number;
     height: number;
 
